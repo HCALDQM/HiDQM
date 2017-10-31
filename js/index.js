@@ -133,8 +133,8 @@ $(document).ready(
 		collec_file = "collections_"+$("#year").val()+".json";
 		console.log("collection file  : " + collec_file);
 		
-		//$.getJSON("collections_2017.json", function (data) {
-		$.getJSON(collec_file, function (data) {
+		$.getJSON("collections_2016.json", function (data) {
+		//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
 
