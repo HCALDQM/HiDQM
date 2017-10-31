@@ -107,7 +107,7 @@ function update_subsystem() {
 function update_collections() {
 
     collec_file = "collections_"+$("#year").val()+".json";
-    console.log("collection file  : " + collec_file);
+    console.log("Loading collection file  : " + collec_file);
     
     $.getJSON(collec_file, function (data) {
 	    //$.getJSON(collec_file, function (data) {
@@ -130,14 +130,14 @@ $(document).ready(
 		colors.push("#FF0066");
 		colors.push("#8D1919");
                 
-		collec_file = "collections_"+$("#year").val()+".json";
-		console.log("collection file  : " + collec_file);
+		//collec_file = "collections_"+$("#year").val()+".json";
+		//console.log("collection file  : " + collec_file);
 		
-		$.getJSON("collections_2016.json", function (data) {
-		//$.getJSON(collec_file, function (data) {
-			collections = data;
-		});
-		console.log(collections);
+		//$.getJSON("collections_2016.json", function (data) {
+		////$.getJSON(collec_file, function (data) {
+		//	collections = data;
+		//});
+		//console.log(collections);
 
 		$('<ul id="list" style="white-space:nowrap;overflow-x:auto"></ul>').appendTo('#list-container');
 
