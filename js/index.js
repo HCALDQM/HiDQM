@@ -137,6 +137,7 @@ $(document).ready(
 		//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
+		console.log(collections);
 
 		$('<ul id="list" style="white-space:nowrap;overflow-x:auto"></ul>').appendTo('#list-container');
 
