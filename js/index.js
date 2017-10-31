@@ -138,7 +138,7 @@ $(document).ready(
 			collections = data;
 		});
 
-		$('<ul id="list" style="white-space:nowrap;overflow-x:auto"></ul>').appendTo('#list-cotnainer');
+		$('<ul id="list" style="white-space:nowrap;overflow-x:auto"></ul>').appendTo('#list-container');
 
 		$("#search").click(
 			function() {
