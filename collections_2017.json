@@ -1,5 +1,5 @@
 {
-    "test":[
+    "test": [
         [
             "timingcut_mean_hbp"
         ],
@@ -35,6 +35,6 @@
         ],
         [
             "energy_mean_ho"
-        ],
-    ],
+        ]
+    ]
 }
