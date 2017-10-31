@@ -11,6 +11,6 @@
         ["energy_mean_hb"],
         ["energy_mean_he"],
         ["energy_mean_hf"],
-        ["energy_mean_ho"],
+        ["energy_mean_ho"]
     ]
 }
