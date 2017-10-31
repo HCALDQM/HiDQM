@@ -34,7 +34,7 @@ function load_dataset(name) {
         }
     }
     if (need_refresh) {
-    	update_collections()
+    	update_collections();
 		console.log("index.js ->  chart_list.dataset = ", name);  
 		console.log("collection[name] = ");
 		console.log(collections[name]);
