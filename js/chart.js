@@ -21,6 +21,8 @@ class Chart {
         this.el = Chart.template_el.clone().appendTo("#body");
         this.el.find("div.chart>div").attr("id", this.name);
         this.el.find("a.popUp").attr("name", this.name).facebox();
+        console.log("this.files=");
+        console.log(this.files);
         this.files.forEach(function (f) {
             var button_el = Chart.button_el.clone().appendTo(self.el.find(".buttons"));
             button_el.find("button").text(f);
