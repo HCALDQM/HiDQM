@@ -88,35 +88,7 @@ function update_range() {
 }
 
 function update_url() {
-    if (apvMode == "" || apvMode === null || apvMode == "PEAK + DECO") { 
-        urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-                + subsystem;
-            if (dataSet == "StreamExpress" || dataSet == "StreamExpressCosmics"|| dataSet == "StreamExpressCosmicsCommissioning") {
-                urlLink = "/" + year + "/" + dataSet + "/"
-                + subsystem;
-            }							     			
-    } else {
-        if (dataSet == "StreamExpress") {
-        urlLink = "/" + year + "/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-        } else if (dataSet == "StreamExpressCosmics") {
-        urlLink = "/" + year + "/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-        } else if (dataSet == "StreamExpressCosmicsCommissioning") {
-        urlLink = "/" + year + "/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-        } else if (dataSet == "Cosmics") {
-        urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-        } else if (dataSet == "CosmicsCommissioning") {
-        urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-        } else {
-        urlLink = "/" + year + "/Prompt/" + dataSet + "/"
-                + subsystem + "/" + apvMode;
-		
-        }
-    }
+	urlLink = "/" + year + "/" + dataSet + "/";
     console.log("urlLink : " + urlLink);
 }
 
