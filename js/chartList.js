@@ -5,7 +5,6 @@ class ChartList {
         this.map = {};
         let i = 0;
         charts.forEach(function (c) {
-            console.log(c)
             self.map[c[0]] = self.charts.length;
             self.charts.push(new Chart(c[0], c, i++));
         });

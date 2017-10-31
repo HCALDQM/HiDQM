@@ -36,7 +36,8 @@ function load_dataset(name) {
     if (need_refresh) {
     	update_collections()
 		console.log("index.js ->  chart_list.dataset = ", name);  
-		console.log(collections);
+		console.log("collection[name] = ");
+		console.log(collections[name]);
         chart_list = new ChartList(name, collections[name]);
 		//console.log("index.js -> need_refresh = true");
 		//console.log("index.js -> new chart_list = ", chart_list);

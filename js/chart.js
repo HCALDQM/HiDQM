@@ -3,8 +3,6 @@ class Chart {
         this.name = name;
         this.id = id;
         this.files = files;
-        console.log("this.files = ");
-        console.log(this.files);
         this.el = null;
         this.removed = false;
         this.hidden = true;
