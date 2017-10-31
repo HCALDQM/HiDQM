@@ -114,6 +114,7 @@ function update_collections() {
 	    collections = data;
     });
     console.log(collections);
+    console.log(JSON.stringify(collections))
 }
 
 
