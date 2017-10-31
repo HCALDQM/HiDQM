@@ -111,7 +111,6 @@ function update_collections() {
     
     $.getJSON(collec_file, function (data) {
 	    //$.getJSON(collec_file, function (data) {
-	    console.log(data)
 	    collections = data;
     });
     console.log(collections);
