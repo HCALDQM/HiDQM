@@ -34,12 +34,13 @@ function load_dataset(name) {
         }
     }
     if (need_refresh) {
-	console.log("index.js ->  chart_list.dataset = ", name);  
-	console.log(collections);
+    	update_collections()
+		console.log("index.js ->  chart_list.dataset = ", name);  
+		console.log(collections);
         chart_list = new ChartList(name, collections[name]);
-	//console.log("index.js -> need_refresh = true");
-	//console.log("index.js -> new chart_list = ", chart_list);
-	console.log("index.js ->  chart_list.dataset = ", chart_list.dataset);  
+		//console.log("index.js -> need_refresh = true");
+		//console.log("index.js -> new chart_list = ", chart_list);
+		console.log("index.js ->  chart_list.dataset = ", chart_list.dataset);  
     }
     else {
         if (need_update) {
