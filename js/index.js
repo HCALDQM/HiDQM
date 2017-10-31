@@ -133,7 +133,7 @@ $(document).ready(
 		collec_file = "collections_"+$("#year").val()+".json";
 		console.log("collection file  : " + collec_file);
 		
-		$.getJSON("collections_2016.json", function (data) {
+		$.getJSON("collections_2017.json", function (data) {
 			//$.getJSON(collec_file, function (data) {
 			collections = data;
 		});
@@ -151,6 +151,6 @@ $(document).ready(
 					update_url(dataSet, year);
 					console.log("update_url executed.............");
 					load_dataset("test");
-				}
+		}
 		});
 });
